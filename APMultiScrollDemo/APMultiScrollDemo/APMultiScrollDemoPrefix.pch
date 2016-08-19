@@ -1,0 +1,50 @@
+//
+//  APCanvasPrefix.pch
+//  APCanvas
+//
+//  Created by ChenYim on 16/7/4.
+//  Copyright © 2016年 ChenYim. All rights reserved.
+//
+
+#ifndef APCanvasPrefix_pch
+#define APCanvasPrefix_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "APUIKit.h"
+
+// Version
+#define SYSTEM_VERSION      [[[UIDevice currentDevice] systemVersion]  floatValue]
+#define BUNDLE_VERSION      [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+#define BUNDLE_BUILD        [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
+#define BUNDLE_NAME         [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"]
+#define BUNDLE_DISPLAYNAME  [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"]
+#define BUNDLE_IDENTIFIER   [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"]
+//NSComparisonResult result2 = VERSION_COMPARE(BUNDLE_VERSION, @"1.1.10"); if versionStr1 < versionStr2 >>> NSOrderedAscending
+#define VERSION_COMPARE(versionStr1, versionStr2) ([(versionStr1) compare:(versionStr2) options:NSNumericSearch])
+
+#define IS_iOS6Later ((VERSION_COMPARE(BUNDLE_VERSION, @"6.0.0") != NSOrderedDescending) ? YES : NO)
+#define IS_iOS7Later ((VERSION_COMPARE(BUNDLE_VERSION, @"7.0.0") != NSOrderedDescending) ? YES : NO)
+#define IS_iOS8Later ((VERSION_COMPARE(BUNDLE_VERSION, @"8.0.0") != NSOrderedDescending) ? YES : NO)
+#define IS_iOS9Later ((VERSION_COMPARE(BUNDLE_VERSION, @"9.0.0") != NSOrderedDescending) ? YES : NO)
+
+// IPhone、IPad device
+#define IPAD_DEVICE  (([[UIDevice currentDevice]userInterfaceIdiom] == UIUserInterfaceIdiomPad) ? 1 : 0)
+#define IPONE_DEVICE  (([[UIDevice currentDevice]userInterfaceIdiom] == UIUserInterfaceIdiomPhone) ? 1 : 0)
+
+// MainScreen
+#define MAINSCREEN_BOUNDS      [[UIScreen mainScreen] bounds]
+#define MAINSCREEN_WIDTH       ([[UIScreen mainScreen] bounds].size.width)
+#define MAINSCREEN_HEIGHT      ([[UIScreen mainScreen] bounds].size.height)
+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_7_1
+#define SCREEN_WIDTH        (IS_iOS8Later ? [[UIScreen mainScreen] bounds].size.width:[[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_HEIGHT       (IS_iOS8Later ? [[UIScreen mainScreen] bounds].size.height:[[UIScreen mainScreen] bounds].size.width)
+#else
+#define SCREEN_WIDTH        [[UIScreen mainScreen] bounds].size.height
+#define SCREEN_HEIGHT       [[UIScreen mainScreen] bounds].size.width
+#endif
+
+
+
+#endif /* APCanvasPrefix_pch */

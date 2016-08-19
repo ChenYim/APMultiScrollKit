@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E64C638F1D6437000066940E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C638E1D6437000066940E /* main.m */; };
+		E64C63921D6437000066940E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63911D6437000066940E /* AppDelegate.m */; };
+		E64C63951D6437000066940E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63941D6437000066940E /* ViewController.m */; };
+		E64C63981D6437000066940E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64C63961D6437000066940E /* Main.storyboard */; };
+		E64C639A1D6437000066940E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64C63991D6437000066940E /* Assets.xcassets */; };
+		E64C639D1D6437000066940E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64C639B1D6437000066940E /* LaunchScreen.storyboard */; };
+		E64C63C11D6437200066940E /* APMSContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63A61D6437200066940E /* APMSContentView.m */; };
+		E64C63C21D6437200066940E /* APMSTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63A81D6437200066940E /* APMSTitleView.m */; };
+		E64C63C31D6437200066940E /* APUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63AA1D6437200066940E /* APUIKit.m */; };
+		E64C63C41D6437200066940E /* ChartEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63AC1D6437200066940E /* ChartEmptyView.m */; };
+		E64C63C61D6437200066940E /* CourseAnalysisContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63B01D6437200066940E /* CourseAnalysisContentView.m */; };
+		E64C63C71D6437200066940E /* CourseAnalysisMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63B21D6437200066940E /* CourseAnalysisMainVC.m */; };
+		E64C63C81D6437200066940E /* CourseAnalysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63B41D6437200066940E /* CourseAnalysisViewController.m */; };
+		E64C63C91D6437200066940E /* CourseScheduleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63B61D6437200066940E /* CourseScheduleCell.m */; };
+		E64C63CA1D6437200066940E /* CourseScheduleContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63B81D6437200066940E /* CourseScheduleContentViewController.m */; };
+		E64C63CB1D6437200066940E /* CourseScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63BA1D6437200066940E /* CourseScheduleViewController.m */; };
+		E64C63CC1D6437200066940E /* StageAnalysisContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63BC1D6437200066940E /* StageAnalysisContentView.m */; };
+		E64C63CD1D6437200066940E /* StageAnalysisMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63BE1D6437200066940E /* StageAnalysisMainVC.m */; };
+		E64C63CE1D6437200066940E /* StageAnalysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64C63C01D6437200066940E /* StageAnalysisViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E64C638A1D6437000066940E /* APMultiScrollDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APMultiScrollDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64C638E1D6437000066940E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E64C63901D6437000066940E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E64C63911D6437000066940E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E64C63931D6437000066940E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E64C63941D6437000066940E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E64C63971D6437000066940E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E64C63991D6437000066940E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E64C639C1D6437000066940E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E64C639E1D6437000066940E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64C63A51D6437200066940E /* APMSContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMSContentView.h; sourceTree = "<group>"; };
+		E64C63A61D6437200066940E /* APMSContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMSContentView.m; sourceTree = "<group>"; };
+		E64C63A71D6437200066940E /* APMSTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMSTitleView.h; sourceTree = "<group>"; };
+		E64C63A81D6437200066940E /* APMSTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMSTitleView.m; sourceTree = "<group>"; };
+		E64C63A91D6437200066940E /* APUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APUIKit.h; path = ViewControllers/APUIKit.h; sourceTree = "<group>"; };
+		E64C63AA1D6437200066940E /* APUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APUIKit.m; path = ViewControllers/APUIKit.m; sourceTree = "<group>"; };
+		E64C63AB1D6437200066940E /* ChartEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartEmptyView.h; sourceTree = "<group>"; };
+		E64C63AC1D6437200066940E /* ChartEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartEmptyView.m; sourceTree = "<group>"; };
+		E64C63AF1D6437200066940E /* CourseAnalysisContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseAnalysisContentView.h; sourceTree = "<group>"; };
+		E64C63B01D6437200066940E /* CourseAnalysisContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseAnalysisContentView.m; sourceTree = "<group>"; };
+		E64C63B11D6437200066940E /* CourseAnalysisMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseAnalysisMainVC.h; sourceTree = "<group>"; };
+		E64C63B21D6437200066940E /* CourseAnalysisMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseAnalysisMainVC.m; sourceTree = "<group>"; };
+		E64C63B31D6437200066940E /* CourseAnalysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseAnalysisViewController.h; sourceTree = "<group>"; };
+		E64C63B41D6437200066940E /* CourseAnalysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseAnalysisViewController.m; sourceTree = "<group>"; };
+		E64C63B51D6437200066940E /* CourseScheduleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseScheduleCell.h; sourceTree = "<group>"; };
+		E64C63B61D6437200066940E /* CourseScheduleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseScheduleCell.m; sourceTree = "<group>"; };
+		E64C63B71D6437200066940E /* CourseScheduleContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseScheduleContentViewController.h; sourceTree = "<group>"; };
+		E64C63B81D6437200066940E /* CourseScheduleContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseScheduleContentViewController.m; sourceTree = "<group>"; };
+		E64C63B91D6437200066940E /* CourseScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseScheduleViewController.h; sourceTree = "<group>"; };
+		E64C63BA1D6437200066940E /* CourseScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseScheduleViewController.m; sourceTree = "<group>"; };
+		E64C63BB1D6437200066940E /* StageAnalysisContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageAnalysisContentView.h; sourceTree = "<group>"; };
+		E64C63BC1D6437200066940E /* StageAnalysisContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageAnalysisContentView.m; sourceTree = "<group>"; };
+		E64C63BD1D6437200066940E /* StageAnalysisMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageAnalysisMainVC.h; sourceTree = "<group>"; };
+		E64C63BE1D6437200066940E /* StageAnalysisMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageAnalysisMainVC.m; sourceTree = "<group>"; };
+		E64C63BF1D6437200066940E /* StageAnalysisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageAnalysisViewController.h; sourceTree = "<group>"; };
+		E64C63C01D6437200066940E /* StageAnalysisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageAnalysisViewController.m; sourceTree = "<group>"; };
+		E64C63CF1D643A7A0066940E /* APMultiScrollDemoPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMultiScrollDemoPrefix.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E64C63871D6437000066940E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E64C63811D6437000066940E = {
+			isa = PBXGroup;
+			children = (
+				E64C638C1D6437000066940E /* APMultiScrollDemo */,
+				E64C638B1D6437000066940E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E64C638B1D6437000066940E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E64C638A1D6437000066940E /* APMultiScrollDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E64C638C1D6437000066940E /* APMultiScrollDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E64C63931D6437000066940E /* ViewController.h */,
+				E64C63941D6437000066940E /* ViewController.m */,
+				E64C63D11D643C110066940E /* APMS */,
+				E64C63A41D6437200066940E /* ViewControllers */,
+				E6E78DE91D659ED80019C417 /* Others */,
+				E64C638D1D6437000066940E /* Supporting Files */,
+			);
+			path = APMultiScrollDemo;
+			sourceTree = "<group>";
+		};
+		E64C638D1D6437000066940E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E64C638E1D6437000066940E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E64C63A41D6437200066940E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E64C63D31D643C380066940E /* CourseSchedule */,
+				E64C63D41D643C4C0066940E /* StageAnalysis */,
+				E64C63D21D643C1F0066940E /* CourseAnalysis */,
+				E64C63D01D643C060066940E /* ChartEmptyView */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E64C63D01D643C060066940E /* ChartEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				E64C63AB1D6437200066940E /* ChartEmptyView.h */,
+				E64C63AC1D6437200066940E /* ChartEmptyView.m */,
+			);
+			name = ChartEmptyView;
+			sourceTree = "<group>";
+		};
+		E64C63D11D643C110066940E /* APMS */ = {
+			isa = PBXGroup;
+			children = (
+				E64C63A71D6437200066940E /* APMSTitleView.h */,
+				E64C63A81D6437200066940E /* APMSTitleView.m */,
+				E64C63A51D6437200066940E /* APMSContentView.h */,
+				E64C63A61D6437200066940E /* APMSContentView.m */,
+			);
+			name = APMS;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E64C63D21D643C1F0066940E /* CourseAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				E64C63B11D6437200066940E /* CourseAnalysisMainVC.h */,
+				E64C63B21D6437200066940E /* CourseAnalysisMainVC.m */,
+				E64C63AF1D6437200066940E /* CourseAnalysisContentView.h */,
+				E64C63B01D6437200066940E /* CourseAnalysisContentView.m */,
+				E64C63B31D6437200066940E /* CourseAnalysisViewController.h */,
+				E64C63B41D6437200066940E /* CourseAnalysisViewController.m */,
+			);
+			name = CourseAnalysis;
+			sourceTree = "<group>";
+		};
+		E64C63D31D643C380066940E /* CourseSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				E64C63B91D6437200066940E /* CourseScheduleViewController.h */,
+				E64C63BA1D6437200066940E /* CourseScheduleViewController.m */,
+				E64C63B51D6437200066940E /* CourseScheduleCell.h */,
+				E64C63B61D6437200066940E /* CourseScheduleCell.m */,
+				E64C63B71D6437200066940E /* CourseScheduleContentViewController.h */,
+				E64C63B81D6437200066940E /* CourseScheduleContentViewController.m */,
+			);
+			name = CourseSchedule;
+			sourceTree = "<group>";
+		};
+		E64C63D41D643C4C0066940E /* StageAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				E64C63BD1D6437200066940E /* StageAnalysisMainVC.h */,
+				E64C63BE1D6437200066940E /* StageAnalysisMainVC.m */,
+				E64C63BB1D6437200066940E /* StageAnalysisContentView.h */,
+				E64C63BC1D6437200066940E /* StageAnalysisContentView.m */,
+				E64C63BF1D6437200066940E /* StageAnalysisViewController.h */,
+				E64C63C01D6437200066940E /* StageAnalysisViewController.m */,
+			);
+			name = StageAnalysis;
+			sourceTree = "<group>";
+		};
+		E6E78DE91D659ED80019C417 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E64C63A91D6437200066940E /* APUIKit.h */,
+				E64C63AA1D6437200066940E /* APUIKit.m */,
+				E64C63901D6437000066940E /* AppDelegate.h */,
+				E64C63911D6437000066940E /* AppDelegate.m */,
+				E64C63961D6437000066940E /* Main.storyboard */,
+				E64C63991D6437000066940E /* Assets.xcassets */,
+				E64C639B1D6437000066940E /* LaunchScreen.storyboard */,
+				E64C639E1D6437000066940E /* Info.plist */,
+				E64C63CF1D643A7A0066940E /* APMultiScrollDemoPrefix.pch */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E64C63891D6437000066940E /* APMultiScrollDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E64C63A11D6437000066940E /* Build configuration list for PBXNativeTarget "APMultiScrollDemo" */;
+			buildPhases = (
+				E64C63861D6437000066940E /* Sources */,
+				E64C63871D6437000066940E /* Frameworks */,
+				E64C63881D6437000066940E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APMultiScrollDemo;
+			productName = APMultiScrollDemo;
+			productReference = E64C638A1D6437000066940E /* APMultiScrollDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E64C63821D6437000066940E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ChenYim;
+				TargetAttributes = {
+					E64C63891D6437000066940E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E64C63851D6437000066940E /* Build configuration list for PBXProject "APMultiScrollDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E64C63811D6437000066940E;
+			productRefGroup = E64C638B1D6437000066940E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E64C63891D6437000066940E /* APMultiScrollDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E64C63881D6437000066940E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64C639D1D6437000066940E /* LaunchScreen.storyboard in Resources */,
+				E64C639A1D6437000066940E /* Assets.xcassets in Resources */,
+				E64C63981D6437000066940E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E64C63861D6437000066940E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64C63C21D6437200066940E /* APMSTitleView.m in Sources */,
+				E64C63C91D6437200066940E /* CourseScheduleCell.m in Sources */,
+				E64C63C31D6437200066940E /* APUIKit.m in Sources */,
+				E64C63C81D6437200066940E /* CourseAnalysisViewController.m in Sources */,
+				E64C63951D6437000066940E /* ViewController.m in Sources */,
+				E64C63CD1D6437200066940E /* StageAnalysisMainVC.m in Sources */,
+				E64C63921D6437000066940E /* AppDelegate.m in Sources */,
+				E64C638F1D6437000066940E /* main.m in Sources */,
+				E64C63CE1D6437200066940E /* StageAnalysisViewController.m in Sources */,
+				E64C63C61D6437200066940E /* CourseAnalysisContentView.m in Sources */,
+				E64C63CA1D6437200066940E /* CourseScheduleContentViewController.m in Sources */,
+				E64C63C11D6437200066940E /* APMSContentView.m in Sources */,
+				E64C63C71D6437200066940E /* CourseAnalysisMainVC.m in Sources */,
+				E64C63CB1D6437200066940E /* CourseScheduleViewController.m in Sources */,
+				E64C63CC1D6437200066940E /* StageAnalysisContentView.m in Sources */,
+				E64C63C41D6437200066940E /* ChartEmptyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E64C63961D6437000066940E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E64C63971D6437000066940E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E64C639B1D6437000066940E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E64C639C1D6437000066940E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E64C639F1D6437000066940E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E64C63A01D6437000066940E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E64C63A21D6437000066940E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = APMultiScrollDemo/APMultiScrollDemoPrefix.pch;
+				INFOPLIST_FILE = APMultiScrollDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.9sky.APMultiScrollDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E64C63A31D6437000066940E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = APMultiScrollDemo/APMultiScrollDemoPrefix.pch;
+				INFOPLIST_FILE = APMultiScrollDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.9sky.APMultiScrollDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E64C63851D6437000066940E /* Build configuration list for PBXProject "APMultiScrollDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64C639F1D6437000066940E /* Debug */,
+				E64C63A01D6437000066940E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E64C63A11D6437000066940E /* Build configuration list for PBXNativeTarget "APMultiScrollDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E64C63A21D6437000066940E /* Debug */,
+				E64C63A31D6437000066940E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E64C63821D6437000066940E /* Project object */;
+}
