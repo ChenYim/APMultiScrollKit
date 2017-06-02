@@ -6,7 +6,7 @@
 //  Copyright © 2016年 ChenYim. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "APMultiScrollDemoVC.h"
 
 #import "CourseScheduleViewController.h"
 #import "CourseAnalysisMainVC.h"
@@ -14,7 +14,7 @@
 
 #define DEFAULT_DATA nil
 
-@interface ViewController ()
+@interface APMultiScrollDemoVC ()
 <
     UITableViewDataSource , UITableViewDelegate
 >
@@ -24,7 +24,7 @@
 
 @end
 
-@implementation ViewController
+@implementation APMultiScrollDemoVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
